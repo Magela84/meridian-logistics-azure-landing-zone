@@ -1,15 +1,11 @@
-# Azure Landing Zone — Logistics & Supply Chain Engagement
-
-![Status](https://img.shields.io/badge/Status-Complete-green)
-![Cloud](https://img.shields.io/badge/Cloud-Microsoft%20Azure-0078D4)
-![IaC](https://img.shields.io/badge/IaC-Terraform%20%7C%20Bicep-purple)
+# Azure Landing Zone — Logistics and Supply Chain Engagement
 
 ## Engagement Overview
 A logistics and supply chain company preparing to migrate
 three on-premises applications to Azure required a repeatable
 policy-compliant Azure foundation before any workloads moved
 to the cloud. All infrastructure deployed as Infrastructure
-as Code — zero manual portal configurations permitted.
+as Code with zero manual portal configurations.
 
 ## Problem Statement
 The client had no existing cloud infrastructure and required
@@ -23,4 +19,14 @@ code for auditability and repeatability.
 - Azure Database for PostgreSQL 15 Flexible Server
 - Customer-facing deployment runbook for internal team handoff
 
-## Architecture
+## Technologies Used
+Terraform, Bicep, ARM Templates, Azure Resource Manager,
+Azure CLI, PostgreSQL, Linux, Git, GitHub
+
+## Engagement Outcome
+Delivered a fully version-controlled Azure landing zone
+ready for workload migration. All infrastructure
+reproducible from code in under 10 minutes.
+
+## Author
+Cloud Engineer - Magela84
